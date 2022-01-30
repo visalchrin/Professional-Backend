@@ -64,7 +64,7 @@ public class UserserviceApplication {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
 
-        config.setAllowedOrigins(Arrays.asList("http://localhost:8081","https://professional-cambodia.herokuapp.com/8080", "http://localhost:4200", "http://localhost:9093"));
+        config.setAllowedOrigins(Arrays.asList("http://localhost:8081","https://professional-cambodia.herokuapp.com", "http://localhost:4200", "http://localhost:9093"));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("authorization", "content-type", "x-auth-token"));
         config.setExposedHeaders(Collections.singletonList("x-auth-token"));
