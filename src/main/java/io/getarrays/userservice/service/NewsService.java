@@ -11,4 +11,5 @@ public interface NewsService {
     News getNewsByTitle(String title);
     List<News> getPopularArticles();
     List<News> getAllNews();
+    List<News> getAllNewsByUserId(String userId);
 }

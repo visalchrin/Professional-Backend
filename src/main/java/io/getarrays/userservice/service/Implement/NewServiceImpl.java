@@ -43,5 +43,10 @@ public class NewServiceImpl implements NewsService{
         
         return newsRepo.getPopularArticles();
     }
+
+    @Override
+    public List<News> getAllNewsByUserId(String userId) {
+        return this.newsRepo.findByUserId(userId);
+    }
     
 }

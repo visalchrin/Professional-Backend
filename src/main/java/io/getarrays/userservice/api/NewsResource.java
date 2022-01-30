@@ -24,6 +24,7 @@ import io.getarrays.userservice.domain.News;
 import io.getarrays.userservice.respository.NewsRepository;
 import io.getarrays.userservice.respository.UserRepository;
 import io.getarrays.userservice.service.NewsService;
+import io.getarrays.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -33,10 +34,20 @@ public class NewsResource {
     final private NewsService newsService;
     final private UserRepository userRepository;
     final private NewsRepository newsRepository;
+    final private UserService userService;
 
     @GetMapping("/getAllNews")
     public ResponseEntity<List<News>> getAllNews() {
         List<News> ls = newsService.getAllNews();
+        Collections.reverse(ls);
+        return ResponseEntity.ok().body(ls);
+    }
+
+    @PostMapping("/getAllNewsByUsername")
+    public ResponseEntity<List<News>> getAllNewsByUsername(@RequestBody Map<String, String> data) {
+        String username = data.get("username");
+        AppUser user = this.userService.getUser(username);
+        List<News> ls = newsService.getAllNewsByUserId(user.getId());
         Collections.reverse(ls);
         return ResponseEntity.ok().body(ls);
     }

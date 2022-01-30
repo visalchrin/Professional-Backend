@@ -53,7 +53,7 @@ public class UserResource {
         return ResponseEntity.ok().body(userService.getUsersBySkill(query));
     }
 
-    @PostMapping("/getAllUsers")
+    @GetMapping("/getAllUsers")
     public ResponseEntity<List<AppUser>> getUsers() {
         return ResponseEntity.ok().body(userService.getUsers());
     }
