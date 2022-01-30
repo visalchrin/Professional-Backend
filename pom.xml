@@ -71,11 +71,11 @@
 
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 		<!-- Testing add this dependency -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
 			<version>3.9.0</version>
-		</dependency>
+		</dependency> -->
 
 
 	</dependencies>
