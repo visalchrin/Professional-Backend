@@ -1,8 +1,8 @@
-package io.getarrays.userservice.service;
+package io.professional.userservice.service;
 
 import java.util.List;
 
-import io.getarrays.userservice.domain.Comment;
+import io.professional.userservice.domain.Comment;
 
 public interface CommentService {
     List<Comment> getAllCommentsByPostId(String postId);

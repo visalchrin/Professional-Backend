@@ -1,12 +1,12 @@
-package io.getarrays.userservice.service.Implement;
+package io.professional.userservice.service.Implement;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import io.getarrays.userservice.domain.Salary;
-import io.getarrays.userservice.respository.SalaryRepository;
-import io.getarrays.userservice.service.SalaryService;
+import io.professional.userservice.domain.Salary;
+import io.professional.userservice.respository.SalaryRepository;
+import io.professional.userservice.service.SalaryService;
 import lombok.RequiredArgsConstructor;
 
 @Service

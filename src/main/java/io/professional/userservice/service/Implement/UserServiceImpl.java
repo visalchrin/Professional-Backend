@@ -1,4 +1,4 @@
-package io.getarrays.userservice.service.Implement;
+package io.professional.userservice.service.Implement;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -14,11 +14,11 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import io.getarrays.userservice.domain.Role;
-import io.getarrays.userservice.domain.AppUser;
-import io.getarrays.userservice.respository.RoleRepository;
-import io.getarrays.userservice.respository.UserRepository;
-import io.getarrays.userservice.service.UserService;
+import io.professional.userservice.domain.AppUser;
+import io.professional.userservice.domain.Role;
+import io.professional.userservice.respository.RoleRepository;
+import io.professional.userservice.respository.UserRepository;
+import io.professional.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

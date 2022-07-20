@@ -1,8 +1,8 @@
-package io.getarrays.userservice.respository;
+package io.professional.userservice.respository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import io.getarrays.userservice.domain.Likes;
+import io.professional.userservice.domain.Likes;
 
 public interface LikeRepository  extends JpaRepository<Likes, String> {
     

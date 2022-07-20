@@ -1,4 +1,4 @@
-package io.getarrays.userservice.filter;
+package io.professional.userservice.filter;
 
 import java.io.IOException;
 import java.util.ArrayList;

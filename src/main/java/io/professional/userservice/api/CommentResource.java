@@ -1,4 +1,4 @@
-package io.getarrays.userservice.api;
+package io.professional.userservice.api;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -10,16 +10,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.professional.userservice.domain.AppUser;
+import io.professional.userservice.domain.Comment;
+import io.professional.userservice.service.CommentService;
+import io.professional.userservice.service.UserService;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-import io.getarrays.userservice.domain.AppUser;
-import io.getarrays.userservice.domain.Comment;
-import io.getarrays.userservice.service.CommentService;
-import io.getarrays.userservice.service.UserService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

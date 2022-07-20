@@ -1,10 +1,10 @@
-package io.getarrays.userservice.respository;
+package io.professional.userservice.respository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import io.getarrays.userservice.domain.Post;
+import io.professional.userservice.domain.Post;
 
 public interface PostRepository extends JpaRepository<Post, String> {
     List<Post> findByOwnerId (String ownerId);

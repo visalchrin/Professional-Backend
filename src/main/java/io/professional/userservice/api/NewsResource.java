@@ -1,4 +1,4 @@
-package io.getarrays.userservice.api;
+package io.professional.userservice.api;
 import java.util.Collections;
 
 import java.net.URI;
@@ -19,12 +19,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import io.getarrays.userservice.domain.AppUser;
-import io.getarrays.userservice.domain.News;
-import io.getarrays.userservice.respository.NewsRepository;
-import io.getarrays.userservice.respository.UserRepository;
-import io.getarrays.userservice.service.NewsService;
-import io.getarrays.userservice.service.UserService;
+import io.professional.userservice.domain.AppUser;
+import io.professional.userservice.domain.News;
+import io.professional.userservice.respository.NewsRepository;
+import io.professional.userservice.respository.UserRepository;
+import io.professional.userservice.service.NewsService;
+import io.professional.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
 
 @RestController

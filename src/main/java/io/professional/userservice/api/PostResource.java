@@ -1,4 +1,4 @@
-package io.getarrays.userservice.api;
+package io.professional.userservice.api;
 
 import java.net.URI;
 import java.util.ArrayList;
@@ -16,15 +16,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import io.getarrays.userservice.domain.AppUser;
-import io.getarrays.userservice.domain.Following;
-import io.getarrays.userservice.domain.Post;
-import io.getarrays.userservice.respository.PostRepository;
-import io.getarrays.userservice.service.CommentService;
-import io.getarrays.userservice.service.FollowingService;
-import io.getarrays.userservice.service.LikeService;
-import io.getarrays.userservice.service.PostService;
-import io.getarrays.userservice.service.UserService;
+import io.professional.userservice.domain.AppUser;
+import io.professional.userservice.domain.Following;
+import io.professional.userservice.domain.Post;
+import io.professional.userservice.respository.PostRepository;
+import io.professional.userservice.service.CommentService;
+import io.professional.userservice.service.FollowingService;
+import io.professional.userservice.service.LikeService;
+import io.professional.userservice.service.PostService;
+import io.professional.userservice.service.UserService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

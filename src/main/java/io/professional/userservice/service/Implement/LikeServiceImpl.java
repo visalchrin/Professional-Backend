@@ -1,10 +1,10 @@
-package io.getarrays.userservice.service.Implement;
+package io.professional.userservice.service.Implement;
 
 import org.springframework.stereotype.Service;
 
-import io.getarrays.userservice.domain.Likes;
-import io.getarrays.userservice.respository.LikeRepository;
-import io.getarrays.userservice.service.LikeService;
+import io.professional.userservice.domain.Likes;
+import io.professional.userservice.respository.LikeRepository;
+import io.professional.userservice.service.LikeService;
 import lombok.RequiredArgsConstructor;
 
 

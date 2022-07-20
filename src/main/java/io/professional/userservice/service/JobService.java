@@ -1,6 +1,6 @@
-package io.getarrays.userservice.service;
+package io.professional.userservice.service;
 
-import io.getarrays.userservice.domain.Job;
+import io.professional.userservice.domain.Job;
 
 public interface JobService {
     Job createJob(Job job);

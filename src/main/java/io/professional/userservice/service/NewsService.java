@@ -1,8 +1,8 @@
-package io.getarrays.userservice.service;
+package io.professional.userservice.service;
 
 import java.util.List;
 
-import io.getarrays.userservice.domain.News;
+import io.professional.userservice.domain.News;
 
 public interface NewsService {
 

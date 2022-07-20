@@ -1,4 +1,4 @@
-package io.getarrays.userservice.api;
+package io.professional.userservice.api;
 
 import java.util.Map;
 import java.util.UUID;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.getarrays.userservice.domain.Salary;
-import io.getarrays.userservice.service.SalaryService;
+import io.professional.userservice.domain.Salary;
+import io.professional.userservice.service.SalaryService;
 import lombok.RequiredArgsConstructor;
 
 @RestController

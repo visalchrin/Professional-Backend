@@ -1,4 +1,4 @@
-package io.getarrays.userservice.domain;
+package io.professional.userservice.domain;
 
 import java.util.Date;
 

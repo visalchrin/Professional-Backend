@@ -1,4 +1,4 @@
-package io.getarrays.userservice.api;
+package io.professional.userservice.api;
 
 import java.io.IOException;
 import java.net.URI;
@@ -21,6 +21,10 @@ import com.fasterxml.jackson.core.exc.StreamWriteException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.professional.userservice.domain.AppUser;
+import io.professional.userservice.domain.Role;
+import io.professional.userservice.service.UserService;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.MimeTypeUtils;
@@ -32,9 +36,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import io.getarrays.userservice.domain.Role;
-import io.getarrays.userservice.domain.AppUser;
-import io.getarrays.userservice.service.UserService;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;

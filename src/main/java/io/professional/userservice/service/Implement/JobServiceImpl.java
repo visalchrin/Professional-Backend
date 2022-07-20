@@ -1,10 +1,10 @@
-package io.getarrays.userservice.service.Implement;
+package io.professional.userservice.service.Implement;
 
 import org.springframework.stereotype.Service;
 
-import io.getarrays.userservice.domain.Job;
-import io.getarrays.userservice.respository.JobRespository;
-import io.getarrays.userservice.service.JobService;
+import io.professional.userservice.domain.Job;
+import io.professional.userservice.respository.JobRespository;
+import io.professional.userservice.service.JobService;
 import lombok.RequiredArgsConstructor;
 
 @Service

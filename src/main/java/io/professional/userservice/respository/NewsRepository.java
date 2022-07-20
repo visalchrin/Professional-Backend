@@ -1,4 +1,4 @@
-package io.getarrays.userservice.respository;
+package io.professional.userservice.respository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import io.getarrays.userservice.domain.News;
+import io.professional.userservice.domain.News;
 
 public interface NewsRepository extends JpaRepository<News, String> {
     News findByTitle (String title);

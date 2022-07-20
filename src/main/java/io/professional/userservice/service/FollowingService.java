@@ -1,8 +1,8 @@
-package io.getarrays.userservice.service;
+package io.professional.userservice.service;
 
 import java.util.List;
 
-import io.getarrays.userservice.domain.Following;
+import io.professional.userservice.domain.Following;
 
 public interface FollowingService {
     Following following(Following following);

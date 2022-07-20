@@ -1,13 +1,12 @@
-package io.getarrays.userservice.service.Implement;
+package io.professional.userservice.service.Implement;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import io.getarrays.userservice.domain.News;
-import io.getarrays.userservice.respository.NewsRepository;
-// import io.getarrays.userservice.respository.UserRepository;
-import io.getarrays.userservice.service.NewsService;
+import io.professional.userservice.domain.News;
+import io.professional.userservice.respository.NewsRepository;
+import io.professional.userservice.service.NewsService;
 import lombok.RequiredArgsConstructor;
 
 @Service

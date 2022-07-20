@@ -1,4 +1,4 @@
-package io.getarrays.userservice.api;
+package io.professional.userservice.api;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.getarrays.userservice.domain.AppUser;
-import io.getarrays.userservice.domain.Follower;
-import io.getarrays.userservice.domain.Following;
-import io.getarrays.userservice.respository.FollowerRepository;
-import io.getarrays.userservice.service.FollowerService;
-import io.getarrays.userservice.service.FollowingService;
-import io.getarrays.userservice.service.UserService;
+import io.professional.userservice.domain.AppUser;
+import io.professional.userservice.domain.Follower;
+import io.professional.userservice.domain.Following;
+import io.professional.userservice.respository.FollowerRepository;
+import io.professional.userservice.service.FollowerService;
+import io.professional.userservice.service.FollowingService;
+import io.professional.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
 
 @RestController

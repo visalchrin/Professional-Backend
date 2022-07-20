@@ -1,8 +1,8 @@
-package io.getarrays.userservice.service;
+package io.professional.userservice.service;
 
 import java.util.List;
 
-import io.getarrays.userservice.domain.Post;
+import io.professional.userservice.domain.Post;
 
 public interface PostService {
     Post getPostById(String id);

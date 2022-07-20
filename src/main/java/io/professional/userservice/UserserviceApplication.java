@@ -1,4 +1,4 @@
-package io.getarrays.userservice;
+package io.professional.userservice;
 
 // import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,9 +18,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
-// import io.getarrays.userservice.domain.Role;
-// import io.getarrays.userservice.domain.AppUser;
-import io.getarrays.userservice.service.UserService;
+import io.professional.userservice.service.UserService;
 
 @SpringBootApplication
 public class UserserviceApplication {

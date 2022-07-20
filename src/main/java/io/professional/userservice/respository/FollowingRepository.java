@@ -1,10 +1,10 @@
-package io.getarrays.userservice.respository;
+package io.professional.userservice.respository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import io.getarrays.userservice.domain.Following;
+import io.professional.userservice.domain.Following;
 
 public interface FollowingRepository extends JpaRepository<Following, String>{
     List<Following> findAllByUserId(String userId);

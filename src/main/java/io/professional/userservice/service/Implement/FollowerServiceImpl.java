@@ -1,10 +1,11 @@
-package io.getarrays.userservice.service.Implement;
+package io.professional.userservice.service.Implement;
 
 import java.util.List;
 import org.springframework.stereotype.Service;
-import io.getarrays.userservice.domain.Follower;
-import io.getarrays.userservice.respository.FollowerRepository;
-import io.getarrays.userservice.service.FollowerService;
+
+import io.professional.userservice.domain.Follower;
+import io.professional.userservice.respository.FollowerRepository;
+import io.professional.userservice.service.FollowerService;
 import lombok.RequiredArgsConstructor;
 
 @Service

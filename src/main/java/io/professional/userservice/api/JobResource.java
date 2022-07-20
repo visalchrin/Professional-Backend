@@ -1,4 +1,4 @@
-package io.getarrays.userservice.api;
+package io.professional.userservice.api;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.getarrays.userservice.domain.Job;
-import io.getarrays.userservice.domain.Salary;
-import io.getarrays.userservice.respository.JobRespository;
-import io.getarrays.userservice.service.JobService;
-import io.getarrays.userservice.service.SalaryService;
+import io.professional.userservice.domain.Job;
+import io.professional.userservice.domain.Salary;
+import io.professional.userservice.respository.JobRespository;
+import io.professional.userservice.service.JobService;
+import io.professional.userservice.service.SalaryService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
